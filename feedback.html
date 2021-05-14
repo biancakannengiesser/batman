@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<hmtl>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="styleNB.css" >
+	<link rel="stylesheet" type="text/css" href="styleForm.css" >
+</head>
+<body>
+	<div class="nav-bar">
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="recipes.html">Recipes</a>
+				<div class="sub-menu"> 
+					<ul>
+						<li><a href="#">Breakfast</a></li>
+						<li><a href="#">Lunch</a></li>
+						<li><a href="#">Dinner</a></li>
+						<li><a href="#">Vegan</a></li>
+					</ul>
+				</div>
+			</li>
+			<li><a href="feedback.html">Feedback</a></li>
+		</ul>
+	</div>
+
+	<div class = "feedback">
+		<h2>Feedback Form</h2>
+		<form method="post" action = "form.php" method="post">
+			<input type="text" name="name" placeholder="Name" required>
+			<input type="email" name="email" placeholder="E-Mail" required>
+			<input type = "text" name = "recipe" placeholder="What recipe did you try?" required>
+			<textarea name="message" placeholder = "Share youre thoughts" required></textarea>
+			<button type = "submit" name = "submit">Send Form</button>
+		</form>
+	</div>
+</body>
+</html>
