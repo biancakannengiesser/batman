@@ -1,0 +1,35 @@
+.feedback {
+	box-shadow: 0 0 4px 0;
+	margin: 50px;
+	width: 350px;
+	text-align: center;
+}
+.feedback h2 {
+	margin-top: 0;
+	padding: 10px;
+	background: #B0C4DE;
+} 
+.feedback input {
+	display: block;
+	width: 90%;
+	margin: 10px auto;
+	padding: 10px;
+}
+.feedback textarea {
+	width: 90%;
+	margin: 5px auto;
+	padding: 10px;
+	height: 80px;
+
+}
+.submit{
+	cursor: pointer;
+	width: 150px !important;
+	margin-left: 18px !important;
+}
+.status {
+	font-size:15px;
+	color:green;
+	padding:15px;
+	
+}
